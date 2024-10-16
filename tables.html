@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tables</title>
+  <style>
+
+    table{
+      border-radius: 10px 10px 0 0;
+      border-collapse: separate;
+      border-spacing:0;
+      width: 80%;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    th, td{
+      text-align:center;
+      padding-top:10px;
+    }
+    .a{
+      background-color: saddlebrown;
+      color: whitesmoke;
+    }
+
+    td:nth-child(3){
+      font-weight: bold;
+    }
+    td:nth-child(4){
+      font-weight: bold;
+    }
+    td{
+      background-color: white;
+      color: black;
+    }
+    tr:nth-child(3) td{
+      background-color: white;
+    }
+
+    tr:nth-child(3) td{
+      font-weight: bold;
+      color:saddlebrown;
+    }
+    tr:last-child td{
+      border-bottom:6px solid saddlebrown;
+    }
+
+  </style>
+</head>
+<body>
+<h2>html tables</h2>
+<table>
+  <tr class="a">
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Point</th>
+    <th>Team</th>
+  </tr>
+
+  <tr class="b">
+    <td>1</td>
+    <td>Domenic</td>
+    <td>88110</td>
+    <td>dcode</td>
+  </tr>
+
+  <tr class="c">
+    <td>2</td>
+    <td>Sally</td>
+    <td>72400</td>
+    <td>student</td>
+  </tr>
+  <tr class="d">
+    <td>3</td>
+    <td>Nick</td>
+    <td>52300</td>
+    <td>dcode</td>
+  </tr>
+
+</table>
+</body>
+</html>
